@@ -1,0 +1,9 @@
+scenario 04:
+when u want to commit/add changes to ur existing 
+project w.r.t single file...(without using remote remove command)
+
+git status
+git branch -M main
+git add bin/packageN/classN.java
+git commit -m"msg-my third commit"
+git push -u origin main

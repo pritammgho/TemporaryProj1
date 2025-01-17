@@ -1,0 +1,16 @@
+scenario no -01
+when u r uploading project on gitHub first time
+
+git config --global user.email enteremailaddress
+git config --global user.name enterusername
+git init
+git add *
+git commit -m"my first project"
+git branch -M main
+git remote add origin url(or u can copy from github)
+git push -u origin main
+
+
+open eclipse- right click on project/file-- show in--
+system explorer--open project name folder--go to address bar- 
+type cmd-- hit enter - then follow above commands

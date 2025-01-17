@@ -1,0 +1,10 @@
+scenario 03:
+when u want to commit/add changes to ur existing project 
+which is already stored in remote repos...
+
+git status
+git branch -M main
+git remote remove origin url-of-existing-repos
+git add *
+git commit -m"msg-my second commit"
+git push -u origin main

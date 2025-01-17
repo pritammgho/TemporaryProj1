@@ -1,0 +1,9 @@
+scenario 2:
+when u r uploading the project for the second time
+
+git init
+git add *
+git commit -m "message-my first commit"
+git branch -M main
+git remote add origin url-of-(new)git-repository
+git push -u origin main

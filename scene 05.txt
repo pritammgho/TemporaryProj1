@@ -1,0 +1,11 @@
+scenario 5:
+code is already uploaded by someone on github
+now u want that code in ur machine
+
+go to documents
+create a new folder
+enter into that folder
+go to address bar
+type "cmd" then enter
+commond= git clone url-of-remote-repos
+Done....!!!
